@@ -7,10 +7,10 @@ Running the API
 ---------------
 ### local version
  * Install Google App Engine
- * `cd /path/to/CoffeeApi`
+ * `cd /path/to/coffeeapi`
  * Start the server using `/path/to/google_app_engine/dev_appserver.py .`. (or use Google App Server GUI)
  * <http://localhost:8080/> further instructions await you here.
  
 ### remote version
- * PR to master...
+ * PR any changes into master...
  * Ask Ops to deploy.
