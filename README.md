@@ -12,5 +12,5 @@ Running the API
  * <http://localhost:8080/> further instructions await you here.
  
 ### remote version
- * PR any changes into master...
- * Ask Ops to deploy.
+ * Continous Deployment is enabled
+ * Push to master and changes will go live.
