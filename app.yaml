@@ -9,9 +9,11 @@ handlers:
 - url: /appengineadmin/.*
   script: google.appengine.ext.admin.application
   login: admin
+  secure: always
 
 - url: .*
   script: main.app
+  secure: always
 
 libraries:
 - name: webapp2

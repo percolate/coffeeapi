@@ -14,6 +14,6 @@ You must use the following:
 
 You can make your own decisions about any details not mentioned.  Be sure to state then in your submission.
 
-We understand that this project would take a full day or 2 to develop, and that you have a job, hobies, and a life.  Simply do it in a resonable amount of time.  We are looking for good clean code, not a quick turnaround.
+We understand that this project would take a full day or 2 to develop, and that you have a job, hobbies, and a life.  Simply do it in a resonable amount of time.  We are looking for good clean code, not a quick turnaround.
 
 To submit your application, simply zip up your project and email it to us.
