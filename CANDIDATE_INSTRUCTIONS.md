@@ -1,6 +1,6 @@
-Use the API located at <http://coffeeapi.percolate.com/>
+Use the API located at http://coffeeapi.percolate.com/
 
-Implement an application that follows the given design storyboard (see provided PDF: coffee app storyboard.pdf)
+Implement an application that follows the given design storyboard (see provided PDF: [coffee app storyboard.pdf](coffee app storyboard.pdf))
 
 You can make your own assumptions about any details not mentioned.  Be sure to state your assumptions as part of your submission.
 
@@ -12,19 +12,19 @@ Android Requirements
 --------------------
  * Application must be built using Android Studio.
  * Target Android 4.0 and up (API 14).
- * Network calls must be done using RoboSpice (https://github.com/stephanenicolas/robospice)
+ * Network calls must be done using [RoboSpice](https://github.com/stephanenicolas/robospice)
  * Any other libraries may be used if you wish.
  * Include a README file with any build instructions and a summary of any decisions (design or technical) not listed here.
 
 iOS Requirements
 ----------------
-* You must use auto layout and do the layout in code.  Avoid Xib’s, Storyboard.
-* Network calls must be done using AFNetworking (https://github.com/AFNetworking/AFNetworking)
+* You must use auto layout and do the layout in code. Avoid Xib’s, Storyboard.
+* Network calls must be done using [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 * Target iOS 6.1+
-* Install libraries via Cocoapods.(http://cocoapods.org/)
+* Install libraries with [Cocoapods](http://cocoapods.org/).
 * Add the ability to share from the detail screen.
 
 Nice to haves:
-* Use Mantle for object serialization (https://github.com/Mantle/Mantle)
-* Make use of Reactive Cocoa (https://github.com/ReactiveCocoa/ReactiveCocoa)
+* Use [Mantle](https://github.com/Mantle/Mantle) for object serialization 
+* Make use of [Reactive Cocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
 * Make the app offline usable.
