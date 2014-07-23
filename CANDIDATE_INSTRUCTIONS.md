@@ -1,16 +1,16 @@
 Android
 ========
-Use the API located at http://coffeeapi.percolate.com/
+Use the API located at <http://coffeeapi.percolate.com/>
 
 Implement an application that follows the given design storyboard (see provided PDF: coffee app storyboard.pdf)
 
 You must use the following:
-- Application must be built using Android Studio.
-- Target Android 4.0 and up (API 14).
-- Network calls must be done using RoboSpice (https://github.com/stephanenicolas/robospice)
-- Any other libraries may be used if you wish.
-- Add the ability to share from the detail screen.
-- Include a README file with any build instructions and a summary of design decisions not listed here.
+
+ * Application must be built using Android Studio.
+ * Target Android 4.0 and up (API 14).
+ * Network calls must be done using RoboSpice (https://github.com/stephanenicolas/robospice)
+ * Any other libraries may be used if you wish.
+ * Include a README file with any build instructions and a summary of any decisions (design or technical) not listed here.
 
 You can make your own assumptions about any details not mentioned.  Be sure to state your assumptions as part of your submission.
 
