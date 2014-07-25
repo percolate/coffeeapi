@@ -1,4 +1,4 @@
-Use the API located at http://coffeeapi.percolate.com/
+Use the API located at https://coffeeapi.percolate.com/
 
 Implement an application that follows the given design storyboard (see provided PDF: [coffee app storyboard.pdf](coffee app storyboard.pdf))
 
@@ -6,7 +6,7 @@ You can make your own assumptions about any details not mentioned.  Be sure to s
 
 We understand that this project will take a full day or two to develop, and that you have a job, hobbies, and a life. Do it in a reasonable amount of time. We want to see how well you can write code, and not how fast.
 
-To submit your application, zip up your project and email it to us.
+To submit your application, please provide us access to a git repo on either github or on bitbucket, or you may also zip up your project and email it to us.
 
 Android Requirements
 --------------------
@@ -24,7 +24,7 @@ iOS Requirements
 * Install libraries with [Cocoapods](http://cocoapods.org/).
 * Add the ability to share from the detail screen.
 
-Nice to haves:
+iOS Nice to haves:
 * Use [Mantle](https://github.com/Mantle/Mantle) for object serialization 
 * Make use of [Reactive Cocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
 * Make the app offline usable.
