@@ -34,6 +34,8 @@
 
       <h3>Android Requirements</h3>
       <div class="well">
+
+        <h4>Required:</h4>
         <ul>
           <li>Your application must be built using Android Studio.</li>
           <li>Target Android 4.0 and up (API 14).</li>
@@ -41,10 +43,19 @@
           <li>Any other libraries may be used if you wish.</li>
           <li>Include a README file with any build instructions and a summary of any decisions (design or technical) not listed here.</li>
 	</ul>
+
+        <h4>Nice-to-haves:</h4>
+        <ul>
+          <li>Send your <code>api_key</code> as the <code>Authorization</code> HTTP header, not as a <code>GET</code> param.</li>
+          <li>Use <a href="https://github.com/FasterXML/jackson">Jackson</a> for your json parsing</li>
+        </ul>
+
       </div>
 
       <h3>iOS Requirements</h3>
       <div class="well">
+
+        <h4>Required:</h4>
         <ul>
           <li>You must use auto layout and do the layout in code. Avoid Xib's, Storyboard.</li>
           <li>Network calls must be done using <a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a></li>
@@ -55,6 +66,7 @@
 
         <h4>Nice-to-haves:</h4>
         <ul>
+          <li>Send your <code>api_key</code> as the <code>Authorization</code> HTTP header, not as a <code>GET</code> param.</li>
           <li>Use <a href="https://github.com/Mantle/Mantle">Mantle</a> for object serialization.</li>
           <li>Make use of <a href="https://github.com/ReactiveCocoa/ReactiveCocoa">Reactive Cocoa</a></li>
           <li>Make the app offline usable.</li>
