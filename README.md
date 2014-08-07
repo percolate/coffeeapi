@@ -3,6 +3,8 @@ Coffee API
 
 #### The mobile team is using this API to give potential job candidates programming challenges.
 
+_Candidate Instructions can be found here_: http://percolate.github.io/coffeeapi/
+
 Running the API
 ---------------
 ### local version
@@ -13,4 +15,4 @@ Running the API
  
 ### remote version
  * Continous Deployment is enabled
- * Push to master and changes will go live.
+ * PR into to master and changes will go live.
