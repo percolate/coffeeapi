@@ -85,7 +85,7 @@ def write_json_response(response, response_data):
 app = webapp2.WSGIApplication([
     ('/', HomePageHandler),
     ('/api/coffee/', CoffeeHandler),
-    ('/api/coffee/([\w]+)/', CoffeeItemHandler),
+    ('/api/coffee/([\w]+)/?', CoffeeItemHandler),
     ('/reset/', PrimeDBHandler),
 ], debug=True)
 
