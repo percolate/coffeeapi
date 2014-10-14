@@ -48,6 +48,19 @@ class CoffeeItemHandler(webapp2.RequestHandler):
         else:
             write_api_error_response(self.request, self.response)
 
+    def delete(self, id):
+        if valid_api_key(self.request):
+
+            coffee = Coffee.get_by_id(id=id);
+
+            if (coffee is not None):
+                coffee.key.delete();
+                write_json_response(self.response, {"status": "done"});
+            else:
+                self.error(404);
+
+        else:
+            write_api_error_response(self.request, self.response)
 
 class PrimeDBHandler(webapp2.RequestHandler):
     def get(self):
