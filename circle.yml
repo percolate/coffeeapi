@@ -1,0 +1,10 @@
+machine:
+  python:
+    version: 2.7
+    - pip install flake8
+
+test:
+  override:
+    - flake8:
+        files:
+          - "**/*.py"
