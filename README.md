@@ -27,7 +27,6 @@ Continuous Deployement is not enabled for this project, it needs to be deployed
 manually:
 
 ```bash
-gcloud components update app
 gcloud config set project percolate-coffeeapi
 gcloud preview app deploy app.yaml --version stable --promote
 ```
