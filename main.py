@@ -11,6 +11,7 @@ API_KEY = "WuVbkuUsCXHPx3hsQzus4SE"
 
 class HomePageHandler(webapp2.RequestHandler):
     def get(self):
+        slef.response.headers['X-Frame-Options'] = 'DENY'
         self.response.out.write(template.render("home.html", {}))
 
 
@@ -160,6 +161,7 @@ def write_api_error_response(request, response):
 
 def write_json_response(response, response_data):
     response.headers['Content-Type'] = 'application/json'
+    response.headers['X-Frame-Options'] = 'DENY'
     response.out.write(json.dumps(response_data))
 
 
