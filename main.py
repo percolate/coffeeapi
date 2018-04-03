@@ -11,7 +11,7 @@ API_KEY = "WuVbkuUsCXHPx3hsQzus4SE"
 
 class HomePageHandler(webapp2.RequestHandler):
     def get(self):
-        slef.response.headers['X-Frame-Options'] = 'DENY'
+        self.response.headers['X-Frame-Options'] = 'DENY'
         self.response.out.write(template.render("home.html", {}))
 
 
