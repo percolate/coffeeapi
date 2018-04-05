@@ -16,6 +16,7 @@ jobs:
       - run: echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
       - run: gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
       - run: gcloud config set project percolate-coffeeapi
+      - checkout
       - run: gcloud app deploy app.yaml --version test --promote
 
 workflows:
