@@ -23,10 +23,4 @@ _Candidate Instructions can be found here_: http://percolate.github.io/coffeeapi
 
 ## Deploy a new version
 
-Continuous Deployement is not enabled for this project, it needs to be deployed
-manually:
-
-```bash
-gcloud config set project percolate-coffeeapi
-gcloud preview app deploy app.yaml --version stable --promote
-```
+Continuous Deployement is enabled, just merge your PR into master.

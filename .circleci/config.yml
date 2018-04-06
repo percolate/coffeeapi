@@ -1,0 +1,32 @@
+version: 2
+jobs:
+
+  flake8:
+    docker:
+      - image: python:2.7
+    steps:
+      - run: pip install flake8
+      - checkout
+      - run: flake8 .
+
+  deploy:
+    docker:
+      - image: google/cloud-sdk
+    steps:
+      - run: echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
+      - run: gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
+      - run: gcloud config set project percolate-coffeeapi
+      - checkout
+      - run: gcloud app deploy app.yaml --version test --promote
+
+workflows:
+  version: 2
+  coffeeapi:
+    jobs:
+      - flake8
+      - deploy:
+          requires:
+            - flake8
+          filters:
+            branches:
+              only: master
